@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Challenge: Scheduled flow</description>
+        <label_cache>[{"name":"e01fc5ca-1f42-4c8f-b4b2-f9798360e01b.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"e01fc5ca-1f42-4c8f-b4b2-f9798360e01b.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"e01fc5ca-1f42-4c8f-b4b2-f9798360e01b.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"1d1f1877-d65b-45a6-a0fd-572af93843af.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"d5c812fe-67d2-4b64-8bc6-2d61bcd828f3.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"fd4addef-4a97-4a32-a52e-c83fdb3388c1.property_value","label":"1➛property_value","type":"string","base_type":"string"}]</label_cache>
+        <name>Find and Close Long OverDue NeedIt Tasks</name>
+        <parent_flow display_value="Find and Close Long OverDue NeedIt Tasks">f02a2c324f2023006fb24a10a310c753</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 09:18:58</sys_created_on>
+        <sys_id>e98605724f6023006fb24a10a310c71b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find and Close Long OverDue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_e98605724f6023006fb24a10a310c71b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-18 09:18:58</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
